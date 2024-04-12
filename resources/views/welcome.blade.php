@@ -8,8 +8,8 @@
 </head>
 <body>
     <div id="app">
-        <h1>Hello Worlddkk</h1>
-        <button @click="showMe"></button>
+        <h1>Hello World</h1>
+        <button-vue />
     </div>
     @vite(['resources/js/app.js'])
     <script type="module">

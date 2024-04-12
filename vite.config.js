@@ -3,11 +3,11 @@ import laravel from 'laravel-vite-plugin';
 import vue from '@vitejs/plugin-vue';
 import path from 'path';
 
-
 export default defineConfig({
     resolve: {
         alias: {
-            vue: path.resolve(__dirname, 'node_modules', 'vue', 'dist', 'vue.esm-browser.prod.js'),
+            // vue: path.resolve(__dirname, 'node_modules', 'vue', 'dist', 'vue.esm-browser.prod.js'),
+            vue: path.resolve(__dirname, 'node_modules', 'vue', 'dist', 'vue.esm-browser.js'),
         },
     },
     plugins: [

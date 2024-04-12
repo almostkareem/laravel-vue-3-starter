@@ -1,9 +1,12 @@
 import './bootstrap';
-
 import { createApp } from 'vue'
 
-window.createApp = createApp;
+import.meta.glob([
+    '../images/**',
+    '../fonts/**',
+]);
 
+window.createApp = createApp;
 
 import HomeVue from './Home.js'
 
